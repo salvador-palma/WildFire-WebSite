@@ -1,0 +1,45 @@
+body{
+    height:100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle at 50% 30%, #6E4252 0%, #1F152E 50%, #11091d 90%);
+}
+
+
+.main-icon-container{
+    background-color: blueviolet;
+    
+}
+
+.main-flamey{
+    width: 30vw;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.download-container{
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    font-weight: bolder;
+    color: #FEDD00;
+    font-size: 1vw;
+}
+
+.download-icons{
+    opacity: 0.5;
+    width: 4vw;
+    transition: all 0.3s;
+    
+}
+.download-icons:hover{
+    opacity: 1;
+    
+}
+
